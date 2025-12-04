@@ -1,4 +1,4 @@
-package java.exercices;
+package java.exercices.corrige;
 /* EXO11 : Avec PRINT & Scanner , vous allez simuler un distributeur de banque :
  * 
  * Vous avez 3000€ sur votre compte, créer un algo qui retire un montant sur votre compte banquaire

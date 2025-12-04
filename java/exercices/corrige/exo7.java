@@ -1,4 +1,4 @@
-package java.exercices;
+package java.exercices.corrige;
 /* EXO7 : A l'aide de Scanner et Print, créer un questionnaire, "Do you speak english ?", répondre yes ou no, puis retourner le messages suivants 
  * 
  * si FALSE "So learn english !"

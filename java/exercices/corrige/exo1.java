@@ -1,15 +1,16 @@
-package java.exercices;
-/* EXO4 : A l'aide de Scanner et Print, tester si une valeur(type entier) est divisible par 2   
+package java.exercices.corrige;
+/* EXO1 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition de deux entiers        
  * 
  * 
+* **********************AFFICHAGE ATTENDU ****************:
  * 
- * **********************AFFICHAGE ATTENDU ****************:
+ * a = 2
+ * b = 3
  * 
+ * resultat = a + b
  * 
- * a = 14
+ * resulat vaut 5
  * 
- * 
- * a est bien divisible par 2
  * 
  * 
 */
@@ -20,7 +21,7 @@ import java.util.Scanner; /* Importation de la bibliothèque Java Scanner */
 
     /***--------Donner un nom à votre class -------------------****/
 
-public class exo4 { /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
+public class exo1 { /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
 
 
     public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
@@ -30,22 +31,19 @@ public class exo4 { /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIE
 
           /* Déclaration des variables */
           int a;
+          int b;
+          int addition;
 
           Scanner clavier = new Scanner(System.in); // Déclaration du scanner Instance de l'Objet Scanner 
 
           System.out.println("La valeur de a"); // Affiche un message
           a = clavier.nextInt(); // On affecte une valeur Scanner de type entier à A
+          System.out.println("La valeur de b");// Affiche un message
+          b = clavier.nextInt();// On affecte une valeur Scanner de type entier à B
 
-        if(a%2==0){ // Modulo permet de retourner le reste d'une division, 
-        //donc là on retourne le reste de la division par 2, donc si le reste est égale
-        // à 0 donc a est divisible par 2 sinon il ne l'est pas.
+          addition = a+b; //calcul la somme
 
-            System.out.println(a+" est divisible par 2");
-        }else{
-
-            System.out.println(a+" n'est pas divisible par 2");
-        }
-
+          System.out.println("a+b= "+addition); /* Afficher votre instruction , concaténation pour la phrase dynamique */
 
         clavier.close();
 
@@ -54,3 +52,4 @@ public class exo4 { /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIE
     }
 
 }
+

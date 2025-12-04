@@ -1,4 +1,4 @@
-package java.exercices;
+package java.exercices.corrige;
 /* EXO16 : Avec PRINT & SCANNER : 
  * 
  * 

@@ -1,4 +1,4 @@
-package java.exercices;
+package java.exercices.corrige;
 /* EXO17 : Avec PRINT & SCANNER : 
  * 
  * Créer un algo qui calcule les dépenses moyenne (en euros, en France) en carburant d'une voiture en fonction 

@@ -1,4 +1,4 @@
-package java.exercices;
+package java.exercices.corrige;
 /* EXO12 : Avec PRINT & Scanner , vous allez me créer un algo 
  * qui applique une réduction (en pourcentage %) sur un prix (en décimal) donnée :
  * 
