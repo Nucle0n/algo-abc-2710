@@ -1,4 +1,4 @@
-package intro;
+package Java.Exercices.intro;
 
 public class helloWorld {
 

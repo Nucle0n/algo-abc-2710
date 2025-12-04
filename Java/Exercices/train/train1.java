@@ -1,4 +1,4 @@
-package train;
+package Java.Exercices.train;
 
 import java.util.Scanner;
 

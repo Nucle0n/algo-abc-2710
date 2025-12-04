@@ -1,4 +1,4 @@
-package message;
+package Java.Exercices.message;
 
 import java.util.Scanner;
 
