@@ -1,3 +1,4 @@
+package java.exercices;
 /* EXO1 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition de deux entiers        
  * 
  * 
@@ -13,25 +14,42 @@
  * 
  * 
 */
-package exercices;
 
-import java.util.Scanner;
 
-    public class exo1 {
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int a , b , resultat;
 
-            System.out.print("Entrez une valeur pour a");
-            a = sc.nextInt();
-           
-            System.out.print("Entrez une valeur pour b");
-            b = sc.nextInt();
+import java.util.Scanner; /* Importation de la bibliothèque Java Scanner */
 
-            resultat = a + b;
-            System.out.println("a + b = " + resultat);
+    /***--------Donner un nom à votre class -------------------****/
 
-            sc.close();
+public class exo1 { /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
 
-        }
+
+    public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
+
+          /***--------  Début du code  -------------------****/
+
+
+          /* Déclaration des variables */
+          int a;
+          int b;
+          int addition;
+
+          Scanner clavier = new Scanner(System.in); // Déclaration du scanner Instance de l'Objet Scanner 
+
+          System.out.println("La valeur de a"); // Affiche un message
+          a = clavier.nextInt(); // On affecte une valeur Scanner de type entier à A
+          System.out.println("La valeur de b");// Affiche un message
+          b = clavier.nextInt();// On affecte une valeur Scanner de type entier à B
+
+          addition = a+b; //calcul la somme
+
+          System.out.println("a+b= "+addition); /* Afficher votre instruction , concaténation pour la phrase dynamique */
+
+        clavier.close();
+
+        /***--------  Fin du code  -------------------****/
+
     }
+
+}
+
