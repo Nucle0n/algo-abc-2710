@@ -1,8 +1,8 @@
-package Exo_perso;
+package exo_perso;
 
 import java.util.Scanner;
 
-public class Exo_yt1 
+public class exo_yt1 
 {
     public static void main(String[] args) 
     {

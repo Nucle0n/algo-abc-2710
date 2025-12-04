@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO16 : Avec PRINT & SCANNER : 
  * 
  * 

@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO20 : Avec PRINT & SCANNER : 
  * 
  * Vous allez créer un algo de sondage pour des élections, 

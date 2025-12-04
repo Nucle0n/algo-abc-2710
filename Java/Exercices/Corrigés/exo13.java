@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO13 : Avec PRINT & SCANNER : Convertir du centimètre (Entier) au mètre (Double)
  * 
  * **********************AFFICHAGE ATTENDU ****************:

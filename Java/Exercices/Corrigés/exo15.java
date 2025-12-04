@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO15 : Avec PRINT & SCANNER : Me créer un convertisseur de devise, Euros , Dollars et Livres Sterling
  * 
  * Vous devriez choisir votre devise en entrée et la devise en sortie

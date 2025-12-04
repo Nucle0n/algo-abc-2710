@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO12 : Avec PRINT & Scanner , vous allez me créer un algo 
  * qui applique une réduction (en pourcentage %) sur un prix (en décimal) donnée :
  * 

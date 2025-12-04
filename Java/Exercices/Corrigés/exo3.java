@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO3 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition (types entiers) et vérifier si elle est pair ou impaire     
  * 
  * 

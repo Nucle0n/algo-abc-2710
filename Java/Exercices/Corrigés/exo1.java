@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO1 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition de deux entiers        
  * 
  * 

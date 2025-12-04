@@ -13,8 +13,7 @@
  * 
  * 
 */
-
-
+package exercices;
 
 import java.util.Scanner;
 
@@ -23,10 +22,11 @@ import java.util.Scanner;
             Scanner sc = new Scanner(System.in);
             int a , b , resultat;
 
-            a = sc.nextInt();
             System.out.print("Entrez une valeur pour a");
-            b = sc.nextInt();
+            a = sc.nextInt();
+           
             System.out.print("Entrez une valeur pour b");
+            b = sc.nextInt();
 
             resultat = a + b;
             System.out.println("a + b = " + resultat);

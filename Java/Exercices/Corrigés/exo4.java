@@ -1,3 +1,4 @@
+package exercices.corrigés;
 /* EXO4 : A l'aide de Scanner et Print, tester si une valeur(type entier) est divisible par 2   
  * 
  * 

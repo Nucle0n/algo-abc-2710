@@ -1,4 +1,4 @@
-package Exo_perso;
+package exo_perso;
 
 import java.util.Scanner;
 

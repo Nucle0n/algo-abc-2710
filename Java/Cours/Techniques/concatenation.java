@@ -1,3 +1,4 @@
+package cours.techniques;
 import java.util.Scanner; /* Importation de la bibliothèque Java Scanner */
 
 public class concatenation { /* Nom de la Classe */
